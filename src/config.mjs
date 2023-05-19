@@ -1,12 +1,12 @@
 export const SITE = {
-	name: 'AgustinCrespo',
+	name: 'California Mountains',
 
-	origin: 'https://agustincrespo.com',
+	origin: 'https://example.com',
 	basePathname: '/',
 	trailingSlash: false,
 
-	title: 'AgustinCrespo.com',
-	description: 'Portfolio website for Agustin Crespo built with Astro 🚀 and TailWind.',
+	title: 'California Mountains',
+	description: 'Skills demonstration for a job interview, made by Agustin Crespo, built with Astro 🚀 and TailWind.',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
 	//googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
