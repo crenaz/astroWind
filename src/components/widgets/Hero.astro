@@ -1,0 +1,45 @@
+---
+import { Icon } from 'astro-icon';
+import { Picture } from '@astrojs/image/components'
+---
+
+<section>
+	<div class="max-w-6xl mx-auto px-4 sm:px-6">
+		<div class="py-12 md:py-20">
+			<div class="text-center pb-10 md:pb-16 max-w-5xl mx-auto">
+				<h4 class="text-5xl md:text-[2.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">
+					 
+				</h4>
+
+				<div>
+					<div class="relative m-auto max-w-4xl">
+						<Picture
+							class="inset-0 object-cover object-top w-full rounded-md shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
+							src={import('~/assets/images/astronaut.jpg')}
+							widths={[400, 768]}
+							sizes="(max-width: 768px) 100vw, 432px"
+							alt="Astronaut"
+							aspectRatio="432:768"
+						/>
+
+					</div>
+				</div>
+
+				<h1 class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">
+					
+				</h1>
+				<div class="max-w-3xl mx-auto">
+					<p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
+						<!-- My name is <span class="font-semibold underline decoration-1 decoration-primary-600 underline-offset-2">Agustin.</span>  I'm A programmer starting out in Data Analysis and before that, I've worked in Customer Service IT Support, as a Network Technician, and Client and Server development for the web. -->
+					</p>
+					<div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
+
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
