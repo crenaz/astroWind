@@ -1,8 +1,8 @@
 # THIS IS BASED ON: "🚀 AstroWind"
 
+FIRST OF ALL: Big, big thanks to **[onwidget](https://www.buymeacoffee.com/onwidget)** for starting this! Really amazing work. Because it's open-source, I'm comfortable using this as a base to craft specific experiences. Thank you!!
 
-
-
+*original Readme:*
 **AstroWind** is a free and open-source template to make your website using **[Astro](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account best practices.
 
 ## Features
