@@ -1,7 +1,7 @@
 {
-  "name": "agustincrespo.com",
-  "description": "Portfolio website for Agustin Crespo built with Astro 🚀 and TailWind.",
-  "version": "1.1.0",
+  "name": "https://los-angeles-mountains.onrender.com",
+  "description": "Skills demonstration website for job interview made by Agustin Crespo built with Astro 🚀 and TailWind.",
+  "version": "1.2.0",
   "private": true,
   "scripts": {
     "dev": "astro dev",
