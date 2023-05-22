@@ -1,11 +1,11 @@
 export const SITE = {
-	name: 'California Mountains',
+	name: 'Los Angeles Mountains',
 
 	origin: 'https://example.com',
 	basePathname: '/',
 	trailingSlash: false,
 
-	title: 'California Mountains',
+	title: 'Los Angeles Mountains',
 	description: 'Skills demonstration for a job interview, made by Agustin Crespo, built with Astro 🚀 and TailWind.',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
