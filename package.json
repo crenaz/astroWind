@@ -45,7 +45,12 @@
     "node": "^14.15.0 || >=16.0.0"
   },
   "dependencies": {
+    "@astrojs/react": "^4.2.2",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "astro-google-fonts-optimizer": "^0.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "rollup": "^3.29.5"
   }
 }
