@@ -27,7 +27,7 @@ export default defineConfig({
 		}),
 		sitemap(),
 		image({
-			entrypoint: '@astrojs/image/sharp', // Updated from serviceEntryPoint
+			entrypoint: '@astrojs/image/sharp', // Changed from entryPoint to entrypoint
 		}),
 		mdx(),
 		...whenExternalScripts(() =>
