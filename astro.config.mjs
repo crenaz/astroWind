@@ -3,7 +3,6 @@ import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
-import image from '@astrojs/image';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import { remarkReadingTime } from './src/utils/frontmatter.mjs';
@@ -26,9 +25,6 @@ export default defineConfig({
 			},
 		}),
 		sitemap(),
-		image({
-			entrypoint: '@astrojs/image/sharp', // Changed from entryPoint to entrypoint
-		}),
 		mdx(),
 		...whenExternalScripts(() =>
 			partytown({
@@ -41,9 +37,11 @@ export default defineConfig({
 	],
 	markdown: {
 		remarkPlugins: [remarkReadingTime],
-		extendDefaultPlugins: true,
 	},
 	vite: {
+		build: {
+			target: 'esnext',
+		},
 		resolve: {
 			alias: {
 				'~': path.resolve(__dirname, './src'),

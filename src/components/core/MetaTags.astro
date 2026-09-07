@@ -1,7 +1,7 @@
 ---
 import { AstroSeo } from '@astrolib/seo';
 import { GoogleAnalytics } from '@astrolib/analytics';
-import { getImage } from '@astrojs/image';
+import { getImage } from 'astro:assets';
 import { getRelativeUrlByFilePath } from '~/utils/directories';
 
 import defaultImageSrc from '~/assets/images/slide2.png';
@@ -13,7 +13,6 @@ import SplitbeeAnalytics from './SplitbeeAnalytics.astro';
 
 const { src: defaultImage } = await getImage({
 	src: defaultImageSrc,
-	alt: 'Default image',
 	width: 1200,
 	height: 628,
 });

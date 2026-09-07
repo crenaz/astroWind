@@ -1,6 +1,7 @@
 ---
 import { Icon } from 'astro-icon';
-import { Picture } from '@astrojs/image/components'
+import { Picture } from 'astro:assets';
+import profilePic from '~/assets/images/slide2.png';
 ---
 
 <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-6xl">
@@ -73,12 +74,11 @@ import { Picture } from '@astrojs/image/components'
 		</div>
 		<div class="relative">
 						<Picture
-							src={import('~/assets/images/profilePic.jpg')}
+							src={profilePic}
 							class="mx-auto rounded-md"
 							widths={[230, 460]}
 							sizes="(max-width: 229px) 230px, (max-width: 459px) 460px"
 							alt="Hero Image"
-							aspectRatio={460/460}
 							loading="eager"
 							width={460}
 							height={460}
